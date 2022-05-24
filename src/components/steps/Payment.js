@@ -6,6 +6,7 @@ export default function Payment() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
+    console.log(userData)
   };
   return (
     <div className="flex flex-col ">
